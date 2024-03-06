@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Diamond/Diamond.sol": "diamond"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Diamond/Diamond.sol": {
+			"keccak256": "0x20ffeb756aabb0ce7c3fba91db281b35d70727689123f716419c4a512e61c78b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dbd3e9462e678c38964343e5188e22f7f5bdbc4f6b9e04e8c123ecc40c0d6182",
+				"dweb:/ipfs/QmdPmBCPX16jukE8DiWiaN4H6vqXcPCEsT7EGEqdRS1Jpp"
+			]
+		}
+	},
+	"version": 1
+}

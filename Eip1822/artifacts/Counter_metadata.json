@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initialValue",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "CountIncremented",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Simple contract to demonstrate EIP-1822 Universal Upgradable Proxy",
+			"events": {
+				"CountIncremented(uint256)": {
+					"details": "Event emitted when the count is incremented",
+					"params": {
+						"newValue": "New value of the count"
+					}
+				}
+			},
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "Constructor function",
+					"params": {
+						"initialValue": "Initial value of the count"
+					}
+				},
+				"getCount()": {
+					"details": "Function to get the current count value",
+					"returns": {
+						"_0": "Current value of the count"
+					}
+				},
+				"incrementCount()": {
+					"details": "Function to increment the count value"
+				}
+			},
+			"title": "Counter",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Eip1822/LogiceC.sol": "Counter"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Eip1822/LogiceC.sol": {
+			"keccak256": "0x7ec4a1b1fd326c3d56673835ebaed5583cf440299056e963a69a94687bb2ae5a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://309619e0e4728a0a4ae76eb225ccfaef8b624b718742342d1d9c0b7ff4f20d76",
+				"dweb:/ipfs/QmZYGvnHQPcFgLGKHJne88xGeMgDZgK6K7DPjPcsqfKwhE"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "init",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Diamond/Diamond.sol": "DiamondInit"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Diamond/Diamond.sol": {
+			"keccak256": "0xc21a75a7a258e3543a822025b99ae542ad344052f45d4c655fe2fab0d694fd4f",
+			"license": "CC0-1.0",
+			"urls": [
+				"bzz-raw://753c65ab21157cc3fe3cd3f9ac46920948a369ae7ec12e3681e55fed59f02084",
+				"dweb:/ipfs/QmTAveJKXe2GLMqVBKaNbNJu3SEJnbXjitwwXRZJQH84uk"
+			]
+		}
+	},
+	"version": 1
+}

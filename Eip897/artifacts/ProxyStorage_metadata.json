@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "otherContractAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Eip897/Delegate.sol": "ProxyStorage"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Eip897/Delegate.sol": {
+			"keccak256": "0x813007a187e8f2a2a2a775cb3e3882bdcb87c36c134f68cb4486164093ec254e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bdf956fc34b8862631019ab04b93ac9ec432d33dc3f88ed684f7e972456ede46",
+				"dweb:/ipfs/QmUupr1ySHZAYCZnwm174nDTCcDQBjn4iccFENZZB4RqVV"
+			]
+		}
+	},
+	"version": 1
+}

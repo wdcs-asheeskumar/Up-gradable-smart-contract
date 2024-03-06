@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "_bytes",
+						"type": "bytes4"
+					},
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "diamondCut",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "id",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Diamond/DiamondCounter.sol": "Diamond"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Diamond/DiamondCounter.sol": {
+			"keccak256": "0xacd1994113a2694cbac403f4b03d0644cea1ec6f251fa35f9f46cee56088a2e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4a3ec30415344c0926825ad2fa1cb27e9e293a8d36fd378aea2de51681b612b",
+				"dweb:/ipfs/QmYpthJLyDLxar57JzysTyUMCM4yzrJCy5hzrdBxu4NiUR"
+			]
+		}
+	},
+	"version": 1
+}

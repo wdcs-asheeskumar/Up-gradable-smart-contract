@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					}
+				],
+				"name": "checkCandidateStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					}
+				],
+				"name": "checkVoterStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EternalVotingContract/EternalVotingContract.sol": "ImplementVotingContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EternalVotingContract/EternalVotingContract.sol": {
+			"keccak256": "0xca1378c0576db51bb986c4d014c48b702f7be6e36fac7e5cd9bad580bd08c462",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3fbf917d1fc20d56be268cfe4adee8a346eaba3af85234cb0eccb065a2f65b9c",
+				"dweb:/ipfs/QmQqNtHBPEEnzzjCAJ8K77HqHHfQ4akScNjnpj8GwwuGpm"
+			]
+		}
+	},
+	"version": 1
+}

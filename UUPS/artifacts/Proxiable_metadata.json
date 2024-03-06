@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "proxiableUUID",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"UUPS/Logic.sol": "Proxiable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"UUPS/Logic.sol": {
+			"keccak256": "0x34b48a9e8f096986bcb60f1b8e1a47b4964475bbbfe9ff8e21630fd2a7925491",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5522f7a12b9cab5809a6fc51a998a2363c980c6587c9d16d346290783d999018",
+				"dweb:/ipfs/QmRvvZixAreTmWNu4eHFD9jEoxW6YzeQnf1NHDJWLgDMvH"
+			]
+		}
+	},
+	"version": 1
+}

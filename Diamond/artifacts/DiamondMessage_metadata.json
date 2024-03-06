@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Diamond/DiamondMessage.sol": "DiamondMessage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Diamond/DiamondMessage.sol": {
+			"keccak256": "0x30b943986fb8fd6168d6689d3d1e9c012eb6b5de8609f31e6579cca38d541b4b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5ceef89ad1827728bf91bb1f0f84efcb7e357deac81d17b2690c8dd81053ae46",
+				"dweb:/ipfs/QmUKKCK7Ju2LCXnSy6gmodpC6h6qpjjYkUbxxszj9JWTKE"
+			]
+		}
+	},
+	"version": 1
+}
