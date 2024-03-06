@@ -1,0 +1,158 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"addCandidateDetails(string,uint256,string)": "13732d79",
+			"addVoterDetails(address,uint256,uint256)": "7a26dd31",
+			"checkCandidateStatus(uint256)": "b2fb8e37",
+			"checkVoterStatus(uint256)": "c93346ab",
+			"result()": "65372147"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "_nameOfCandidate",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_voterCardNo",
+					"type": "uint256"
+				},
+				{
+					"internalType": "string",
+					"name": "_partyName",
+					"type": "string"
+				}
+			],
+			"name": "addCandidateDetails",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_voterAddress",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_voterCardNo",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_partyNumber",
+					"type": "uint256"
+				}
+			],
+			"name": "addVoterDetails",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_voterCardNo",
+					"type": "uint256"
+				}
+			],
+			"name": "checkCandidateStatus",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_voterCardNo",
+					"type": "uint256"
+				}
+			],
+			"name": "checkVoterStatus",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "result",
+			"outputs": [
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

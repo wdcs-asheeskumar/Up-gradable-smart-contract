@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -649,7 +649,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Erc20MNTK.sol": "MyNewToken"
+			"contracts/ERCDAI.sol": "MyDToken"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -657,8 +657,8 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
-			"runs": 900
+			"enabled": false,
+			"runs": 200
 		},
 		"remappings": []
 	},
@@ -719,12 +719,12 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"contracts/Erc20MNTK.sol": {
-			"keccak256": "0x5758d856f5f8afc935f5a41f3ab994e453ead9e8179263c196b7f460967e640f",
+		"contracts/ERCDAI.sol": {
+			"keccak256": "0xd9e38af71789fbfc66eb77937ae57d17aeb2a028fb4580e9db4dfd25ff85d455",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://63108a4736a6c14645718e892c036a5a21fad17c4168c1c784157b4ee3750792",
-				"dweb:/ipfs/QmWRqy3A2SZ9C3zFtfio1WLSaDxcxWQe81ywUfJJ6M3sdR"
+				"bzz-raw://72b5712104d27bcc1c9f38dd0067677ac3c8c81363951b36c4d5ef2f6a09173b",
+				"dweb:/ipfs/QmNYjj9i1hXY1c6DYfvzQGuMk4icHFGWo8LaWMJ9t14RPs"
 			]
 		}
 	},

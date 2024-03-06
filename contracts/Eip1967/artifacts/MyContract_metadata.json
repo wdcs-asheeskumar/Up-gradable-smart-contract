@@ -1,0 +1,167 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_eip1967logiccontract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Eip1967logiccontract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nameOfCandidate",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_partyName",
+						"type": "string"
+					}
+				],
+				"name": "addCandidateDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_voterAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_partyNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addVoterDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					}
+				],
+				"name": "checkCandidateStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					}
+				],
+				"name": "checkVoterStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Eip1967/Eip1967Contract.sol": "MyContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Eip1967/Eip1967Contract.sol": {
+			"keccak256": "0x2a4045f9cbb808e6a9918f1bd74cf7ea40524a9cfa6289d1af68da0257e53151",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b57b3377f784ac7a9c1e4848bd0dfc60fdc569f1bb891bf711aa4afbe61c4395",
+				"dweb:/ipfs/QmdqB74iUUYKHb3KFq4yMQ3Tw4G9QN9TqKjzwMjJjgytNZ"
+			]
+		}
+	},
+	"version": 1
+}

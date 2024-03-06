@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Eip2535/DiamondC.sol": "TradeFacet"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Eip2535/DiamondC.sol": {
+			"keccak256": "0x2712a67e686ba4ad45d2490387182add5339e4202d2a784fa8f3bbb5d45ce69d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d22fdb8461d87a06f1d842a89bc4ea7bbb1cbef3e2b3a3023063b2c88ca2339a",
+				"dweb:/ipfs/QmcVvuP9cXTQ1YzEX2HrZjsvud5r2DtSDT39KoHXYx1KML"
+			]
+		}
+	},
+	"version": 1
+}

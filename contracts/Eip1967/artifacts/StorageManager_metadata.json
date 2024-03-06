@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "key",
+						"type": "bytes32"
+					}
+				],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "key",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Eip1967/StandardSt.sol": "StorageManager"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Eip1967/StandardSt.sol": {
+			"keccak256": "0xc280d0879a95494356274d13786104d7fd621f810f2b9eb2a47abd9ed79a0d3c",
+			"urls": [
+				"bzz-raw://cc5c7e32b0a4acc8bf5e06777e2484595b8ddf58628448b3bbe780f516eb234e",
+				"dweb:/ipfs/QmSbd6c1NEDraLttrgZWgA2YrxY1Dc8r1vCJoLZrHQgHJK"
+			]
+		}
+	},
+	"version": 1
+}

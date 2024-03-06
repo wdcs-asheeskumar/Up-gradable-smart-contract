@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nameOfCandidate",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_partyName",
+						"type": "string"
+					}
+				],
+				"name": "addCandidateDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_voterAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_partyNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addVoterDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					}
+				],
+				"name": "checkCandidateStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_voterCardNo",
+						"type": "uint256"
+					}
+				],
+				"name": "checkVoterStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Eip897/Eip897VotingContract.sol": "VotingInterface"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Eip897/Eip897VotingContract.sol": {
+			"keccak256": "0x3dd1acad1bd33c96bdd61e3e1a3b114956a478fc1e17e5a410f044531c02bc38",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://216697c149e657d9cd82fdd6016b1839550c32e2fe23004e6d9c523e2cf49052",
+				"dweb:/ipfs/Qmf3q5BMhhAjWABTch2FCGw1UnDwRpCPwNiGQ3K3JGY69p"
+			]
+		}
+	},
+	"version": 1
+}

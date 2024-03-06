@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Eip897/DelegateP.sol": "Delegate"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 900
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Eip897/DelegateP.sol": {
+			"keccak256": "0x17f9b8fb589961caebf4cd8f50768c3c29cf41d8a7a86c076f94c32e6ff5944c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1753ae8d9558f5666dd98a6d8ebde6be206bdae805d5b6d4506e8ce4b457533b",
+				"dweb:/ipfs/QmQ1vTQ4sxwS9eH4j1ye2HRRUf3d83SUKeDJ2KPDE23VLa"
+			]
+		}
+	},
+	"version": 1
+}
